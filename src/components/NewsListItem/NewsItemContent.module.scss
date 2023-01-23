@@ -1,0 +1,35 @@
+.content {
+  width: 100%;
+  position: relative;
+  color: white;
+  margin:  1em ;
+  height: 100%;
+  p {
+    line-height: 1.5;
+    margin:  1em 0;
+    font-size: 120%;
+  }
+  transition: all 0.5s ease-in-out;
+
+  .articleFooter {
+    color: rgba(144, 144, 144, 0.897);
+  }
+
+  @media (max-width: 480px) {
+    width: 90%;
+  }
+}
+
+a {
+  transition: all 0.1s ease-in-out;
+  color: #0b7ce6
+}
+
+a:visited {
+  color: #c80aff;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: white;
+}

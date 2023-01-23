@@ -1,0 +1,48 @@
+.container {
+  color: white;
+  display: flex;
+  padding-top: 80px;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 60%;
+  margin-bottom: 100px;
+  img {
+    width: 100%;
+    max-height: 600px;
+    object-fit: cover;
+  }
+  h1 {
+    font-size: 250%;
+    margin: 20px 0;
+  }
+
+  @media (max-width: 480px) {
+    width: 90%;
+
+    h1 {
+      font-size: 200%;
+    }
+  }
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  .metaData {
+    p {
+      color: rgb(190, 190, 190) !important;
+    }
+  }
+  
+  article {
+    line-height: 10;
+    p {
+      font-size: 120%;
+      line-height: 1.5;
+      margin: 1em 0;
+    }
+  } 
+}
+
+
+

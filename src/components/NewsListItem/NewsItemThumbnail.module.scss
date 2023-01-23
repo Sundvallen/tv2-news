@@ -1,0 +1,68 @@
+
+.imageWrapper {
+  display: flex;
+  justify-content: center;
+  transition: all 0.5s ease-in-out;
+  height: 400px;
+  width: 100%;
+  border-radius: 7px;
+  position: relative;
+  overflow: hidden;
+
+  .cardShadow {
+    pointer-events: none;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(25deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.2) 46%, rgba(0,0,0,0) 99%); 
+
+    .publishedShadow {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      top: 0;      
+      left: 0;
+      background: linear-gradient(150deg, rgba(0,0,0,0.7) 0%, rgba(135,0,255,0) 30%); 
+    }
+  }
+
+
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+  
+}
+
+.publishedAt {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 10px 20px;
+  color: rgb(211, 211, 211);
+  font-size: 110%;
+  font-weight: 200;
+  z-index: 10;
+}
+
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 20px;
+  // max-width: 650px;
+  color: white;
+  
+  .contentIcon {
+    position: relative;
+    z-index: 10;
+  }
+
+  h2 {
+    font-size: 200%;
+    font-weight: 400;
+    position: relative;
+  }
+}

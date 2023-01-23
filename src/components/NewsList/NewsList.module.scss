@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 50%;
+
+  @media (max-width: 480px) {
+    width: 90%;
+    padding-top: 50px;
+  }
+}
+
+.button {
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  z-index: 99;
+  width: 100px;
+}

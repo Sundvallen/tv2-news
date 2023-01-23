@@ -1,0 +1,11 @@
+.container {
+  position: fixed;
+  padding-left: 20px;
+  top: 0;
+  display: flex;
+  z-index: 11;
+  background-color: #100118;
+  box-shadow: -20px 3px 15px 5px rgba(0,0,0,0.38);
+  height: 50px;
+  width: 100%;
+}
